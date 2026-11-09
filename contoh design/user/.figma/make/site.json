@@ -1,0 +1,10 @@
+{
+  "description": "Connects job seekers with career opportunities through registration, personalized profiles, job listings with filters, and application tracking features.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

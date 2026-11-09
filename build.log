@@ -1,0 +1,37 @@
+
+> frontend@0.1.0 build
+> next build
+
+▲ Next.js 16.3.1 (Turbopack)
+- Environments: .env.local
+✓ Running next.config.ts took 72ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 887ms
+  Running TypeScript ...
+contoh-design/src/App.tsx(650,29): error TS2322: Type 'string | (() => void)' is not assignable to type 'ReactNode'.
+  Type '() => void' is not assignable to type 'ReactNode'.
+contoh-design/src/App.tsx(651,23): error TS2322: Type 'string | (() => void)' is not assignable to type 'ReactNode'.
+  Type '() => void' is not assignable to type 'ReactNode'.
+contoh-design/vite.config.ts(1,67): error TS2307: Cannot find module 'vite' or its corresponding type declarations.
+contoh-design/vite.config.ts(2,19): error TS2307: Cannot find module '@vitejs/plugin-react' or its corresponding type declarations.
+contoh-design/vite.config.ts(3,25): error TS2307: Cannot find module '@tailwindcss/vite' or its corresponding type declarations.
+contoh-design/vite.config.ts(10,32): error TS7031: Binding element 'mode' implicitly has an 'any' type.
+contoh-design/vite.config.ts(103,21): error TS7006: Parameter 'server' implicitly has an 'any' type.
+contoh-design/vite.config.ts(104,31): error TS7006: Parameter 'req' implicitly has an 'any' type.
+contoh-design/vite.config.ts(104,36): error TS7006: Parameter 'res' implicitly has an 'any' type.
+contoh-design/vite.config.ts(104,41): error TS7006: Parameter 'next' implicitly has an 'any' type.
+contoh-design/vite.config.ts(122,15): error TS7006: Parameter 'html' implicitly has an 'any' type.
+contoh-design/vite.config.ts(237,21): error TS7006: Parameter 'server' implicitly has an 'any' type.
+contoh-design/vite.config.ts(254,35): error TS7006: Parameter 'socket' implicitly has an 'any' type.
+contoh-design/vite.config.ts(283,21): error TS7006: Parameter 'server' implicitly has an 'any' type.
+contoh-design/vite.config.ts(286,15): error TS7006: Parameter 'code' implicitly has an 'any' type.
+contoh-design/vite.config.ts(286,21): error TS7006: Parameter 'id' implicitly has an 'any' type.
+contoh-design/vite.config.ts(339,15): error TS7006: Parameter 'id' implicitly has an 'any' type.
+contoh-design/vite.config.ts(343,10): error TS7006: Parameter 'id' implicitly has an 'any' type.
+contoh-design/vite.config.ts(347,21): error TS7006: Parameter 'server' implicitly has an 'any' type.
+contoh-design/vite.config.ts(348,37): error TS7006: Parameter 'req' implicitly has an 'any' type.
+contoh-design/vite.config.ts(348,42): error TS7006: Parameter 'res' implicitly has an 'any' type.
+contoh-design/vite.config.ts(348,47): error TS7006: Parameter 'next' implicitly has an 'any' type.
+Failed to type check.
+
